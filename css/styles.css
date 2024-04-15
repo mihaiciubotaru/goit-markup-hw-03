@@ -20,6 +20,81 @@
     font-weight: normal;
   }
 
+  header {
+    background-color: #ececec;
+  }
+
+  .container {
+    width: 1200px;
+  }
+
+  .main_title {
+    height: 600px;
+    background-color: #2f303a;
+    color: white;
+    text-align: center;
+    padding-top: 280px;
+  }
+
+  .index__main__presentation {
+    width: 1170px;
+    display:flex;
+  }
+
+  .index__main__images__ul {
+    width: 1170px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .index__main__team {
+    /* height: 648px; */
+    background-color: #f5f4fa;
+  }
+
+  .index__main__team__ul {
+    width: 1170px;
+    height: 368px;;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .index__main__team__ul__li {
+    text-align: center;
+    border-width: 3px;
+  }
+
+  .main__ul {
+    display: flex;
+    gap: 25px;
+  }
+
+  .top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80px;
+  }
+
+  .top-menu__links {
+    display: inline-flexbox;
+    gap: 108px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .top-menu__webstudio {
+    font: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .top-menu__contacts {
+    display: flex;
+  }
+
   .main__button {
     width: 161;
     height: 30;
@@ -52,4 +127,10 @@
 
   .header__active_text{
     color:#212121
+  }
+
+  .index__footer {
+    background-color: #2f303a;
+    color: white;
+    padding-left: 80px;
   }
